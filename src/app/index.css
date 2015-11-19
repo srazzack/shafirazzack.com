@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.thumbnail img.pull-right {
+  width: 50px;
+}
+
+body {
+  background-color: black;
+}
+
+div.shafi {
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  min-height: 400px;
+  max-height: auto;
+  background-image: url("../assets/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: brightness(50%);
+  filter: brightness(80%);
+  opacity: 1;
+  -moz-box-shadow:inset 0px 0px 3px 1px black;
+  -webkit-box-shadow:inset 0px 0px 3px 1px black;
+  box-shadow:inset 0px 0px 100px 1px black;
+  position: relative;
+  border-color: #FAEBD7;
+}
+
+.lead {
+  margin-top: -338px;
+  color: #FAEBD7;
+  position: absolute;
+  padding: 0px 0px 0px 0px;
+  left:0;
+  right: 0;
+}
+
+.lead h1 {
+  font-family: 'Cantora One', sans-serif;
+}
+
+.lead p, .lead h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#myButton {
+  color: blue;
+}
+
+.mySection {
+  width: auto;
+  height: 35px;
+  background-color: black;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .5;
+  position: relative;
+  padding: 5px; 
+  border: solid 1px #FAEBD7;
+}
+
+.myContent {
+  width: 70px;
+  height: 16px;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  font-size: 12px;
+}
+
+#myBackground {
+  float: right;
+}
+
+.button-link {
+    background: black;
+    color: #FAEBD7;
+    border: solid 1px #FAEBD7;
+}
+
+.button-link:hover {
+  background: #FAEBD7;
+  color: black;
+  border: solid 1px #CCC; 
+  -moz-box-shadow: 1px 1px 5px #999; 
+  -webkit-box-shadow: 1px 1px 5px #999; 
+  box-shadow: 1px 1px 5px white; 
+}
